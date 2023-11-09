@@ -28,7 +28,7 @@ def bench(passes: "list[str]"):
             os.path.join(os.path.relpath("benchmarks", start=".."), benchmark),
             os.path.relpath(output_dir, start=".."),
         )
-
+        
         subprocess.run(
             compile_cmd,
             shell=True,
@@ -70,6 +70,12 @@ def main():
     parser = argparse.ArgumentParser(
         description="CS 164 Homework 8 Benchmark Script"
     )
+    subprocess.run(
+            "dune build",
+            shell=True,
+            cwd="..",
+            check=True,
+        )
     parser.add_argument("--config", type=argparse.FileType("r"), default="config.json")
     parser.add_argument("--output", type=argparse.FileType("w"), default="results.csv")
     args = parser.parse_args()
