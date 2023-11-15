@@ -1,4 +1,4 @@
-(define (f x y) (- (+ x y) x))
+(define (f x y) (print (- (+ x y) x)))
 
 (let ((x 2))
   (let ((y 3))
