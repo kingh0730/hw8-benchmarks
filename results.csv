@@ -1,7 +1,16 @@
 Benchmark name,Configuration,Time taken (s)
-readnum.lisp,Constant propagation and inlining,0.006632272095885128
-readnum.lisp,Inlining,0.00690475181909278
-readnum.lisp,No optimizations,0.006814603111706674
-starter.lisp,Constant propagation and inlining,0.006460504198912531
-starter.lisp,Inlining,0.007099167408887297
-starter.lisp,No optimizations,0.0071287179132923486
+cse.lisp,Constant propagation and inlining,0.004356175812426954
+cse.lisp,Inlining,0.004879751207772643
+cse.lisp,No optimizations,0.00686562298797071
+cse_if.lisp,Constant propagation and inlining,0.003463902696967125
+cse_if.lisp,Inlining,0.004854245332535356
+cse_if.lisp,No optimizations,0.0066718139103613796
+cse_read.lisp,Constant propagation and inlining,0.004281409794930369
+cse_read.lisp,Inlining,0.0045423971838317815
+cse_read.lisp,No optimizations,0.006767474836669863
+readnum.lisp,Constant propagation and inlining,0.004186394391581416
+readnum.lisp,Inlining,0.006264933187048882
+readnum.lisp,No optimizations,0.0073482902254909275
+starter.lisp,Constant propagation and inlining,0.003959172102622688
+starter.lisp,Inlining,0.004540723690297455
+starter.lisp,No optimizations,0.0071158652077429
