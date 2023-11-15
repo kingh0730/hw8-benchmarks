@@ -1,0 +1,7 @@
+Benchmark name,Configuration,Time taken (s)
+readnum.lisp,Constant propagation and inlining,0.006469996704254299
+readnum.lisp,Inlining,0.006925476004835218
+readnum.lisp,No optimizations,0.007270514580886811
+starter.lisp,Constant propagation and inlining,0.006860097008757293
+starter.lisp,Inlining,0.006918282399419695
+starter.lisp,No optimizations,0.006976494682021439
