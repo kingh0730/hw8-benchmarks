@@ -1,16 +1,586 @@
 Benchmark name,Configuration,Time taken (s)
-cse.lisp,Constant propagation and inlining,0.004356175812426954
-cse.lisp,Inlining,0.004879751207772643
-cse.lisp,No optimizations,0.00686562298797071
-cse_if.lisp,Constant propagation and inlining,0.003463902696967125
-cse_if.lisp,Inlining,0.004854245332535356
-cse_if.lisp,No optimizations,0.0066718139103613796
-cse_read.lisp,Constant propagation and inlining,0.004281409794930369
-cse_read.lisp,Inlining,0.0045423971838317815
-cse_read.lisp,No optimizations,0.006767474836669863
-readnum.lisp,Constant propagation and inlining,0.004186394391581416
-readnum.lisp,Inlining,0.006264933187048882
-readnum.lisp,No optimizations,0.0073482902254909275
-starter.lisp,Constant propagation and inlining,0.003959172102622688
-starter.lisp,Inlining,0.004540723690297455
-starter.lisp,No optimizations,0.0071158652077429
+0.basic.bench.lisp,Constant propagation and inlining,0.22535326790530236
+0.basic.bench.lisp,Inlining,0.21843680669553578
+0.basic.bench.lisp,No optimizations,0.19052166987676172
+01.lisp,Constant propagation and inlining,0.006772951106540859
+01.lisp,Inlining,0.007849325169809162
+01.lisp,No optimizations,0.008905891585163772
+02.lisp,Constant propagation and inlining,0.006679229275323451
+02.lisp,Inlining,0.008183695049956441
+02.lisp,No optimizations,0.0075543408514931795
+03.lisp,Constant propagation and inlining,0.007109907362610102
+03.lisp,Inlining,0.007104936498217284
+03.lisp,No optimizations,0.007161468476988375
+1.basic.bench.lisp,Constant propagation and inlining,0.3094475668622181
+1.basic.bench.lisp,Inlining,0.2898197442991659
+1.basic.bench.lisp,No optimizations,0.6461609414545819
+2.basic.bench.lisp,Constant propagation and inlining,0.05110876008402556
+2.basic.bench.lisp,Inlining,1.6853342510992662
+2.basic.bench.lisp,No optimizations,1.7140445820987225
+4.lisp,Constant propagation and inlining,0.008129976619966329
+4.lisp,Inlining,0.006822074786759913
+4.lisp,No optimizations,0.006525634601712227
+CP-basic-add1.lisp,Constant propagation and inlining,0.0076701479963958265
+CP-basic-add1.lisp,Inlining,0.0074824262643232945
+CP-basic-add1.lisp,No optimizations,0.008204759820364416
+CP-basic-eq1.lisp,Constant propagation and inlining,0.007663574302569032
+CP-basic-eq1.lisp,Inlining,0.00640108035877347
+CP-basic-eq1.lisp,No optimizations,0.006691250647418201
+CP-basic-eq2.lisp,Constant propagation and inlining,0.0069191572722047566
+CP-basic-eq2.lisp,Inlining,0.006312085664831102
+CP-basic-eq2.lisp,No optimizations,0.006886351155117154
+CP-basic-if1.lisp,Constant propagation and inlining,0.006572748185135424
+CP-basic-if1.lisp,Inlining,0.007061922876164317
+CP-basic-if1.lisp,No optimizations,0.007373535027727485
+CP-basic-if2.lisp,Constant propagation and inlining,0.006567712128162384
+CP-basic-if2.lisp,Inlining,0.007923511182889342
+CP-basic-if2.lisp,No optimizations,0.007698212726972997
+CP-basic-let.lisp,Constant propagation and inlining,0.006515676621347666
+CP-basic-let.lisp,Inlining,0.007694814144633711
+CP-basic-let.lisp,No optimizations,0.008059214474633336
+CP-basic-lt1.lisp,Constant propagation and inlining,0.008587950584478676
+CP-basic-lt1.lisp,Inlining,0.0064498654566705225
+CP-basic-lt1.lisp,No optimizations,0.007167883310467004
+CP-basic-lt2.lisp,Constant propagation and inlining,0.008066640561446547
+CP-basic-lt2.lisp,Inlining,0.007456545275636018
+CP-basic-lt2.lisp,No optimizations,0.007888776087202131
+CP-basic-minus.lisp,Constant propagation and inlining,0.007194126606918871
+CP-basic-minus.lisp,Inlining,0.007635696185752749
+CP-basic-minus.lisp,No optimizations,0.006657163193449378
+CP-basic-plus.lisp,Constant propagation and inlining,0.007150533981621266
+CP-basic-plus.lisp,Inlining,0.008404366835020483
+CP-basic-plus.lisp,No optimizations,0.007760583469644189
+CP-basic-sub1.lisp,Constant propagation and inlining,0.007221620739437639
+CP-basic-sub1.lisp,Inlining,0.007464908063411713
+CP-basic-sub1.lisp,No optimizations,0.007862941990606487
+File.lisp,Constant propagation and inlining,0.006971864984370768
+File.lisp,Inlining,0.006863583251833916
+File.lisp,No optimizations,0.008042604941874743
+File2.lisp,Constant propagation and inlining,0.007940127304755152
+File2.lisp,Inlining,0.00690305968746543
+File2.lisp,No optimizations,0.007097257487475872
+File3.lisp,Constant propagation and inlining,0.008272730372846126
+File3.lisp,Inlining,0.007109950971789658
+File3.lisp,No optimizations,0.007192804850637913
+a.lisp,Constant propagation and inlining,0.007482305308803916
+a.lisp,Inlining,0.0069137874757871035
+a.lisp,No optimizations,0.007142685865983367
+aa.lisp,Constant propagation and inlining,0.007036789273843169
+aa.lisp,Inlining,0.0066938639618456365
+aa.lisp,No optimizations,0.008496281201951205
+aaa.lisp,Constant propagation and inlining,0.007798374211415648
+aaa.lisp,Inlining,0.0066466855350881815
+aaa.lisp,No optimizations,0.0071984493173658844
+add_inlining.lisp,Constant propagation and inlining,0.008610462537035346
+add_inlining.lisp,Inlining,0.007052481779828668
+add_inlining.lisp,No optimizations,0.0071651919046416875
+adding.lisp,Constant propagation and inlining,0.007512633572332561
+adding.lisp,Inlining,0.007134857098571956
+adding.lisp,No optimizations,0.008193594426847995
+aes.lisp,Constant propagation and inlining,0.03834669715724885
+aes.lisp,Inlining,0.03037568291183561
+aes.lisp,No optimizations,0.04045638127718121
+aurora-otp.lisp,Constant propagation and inlining,0.15460626133717598
+aurora-otp.lisp,Inlining,0.1586961428169161
+aurora-otp.lisp,No optimizations,0.027289096964523196
+b.lisp,Constant propagation and inlining,0.006653580092824995
+b.lisp,Inlining,0.007220712141133845
+b.lisp,No optimizations,0.007549298484809697
+b1-const-prop.lisp,Constant propagation and inlining,0.00767927470151335
+b1-const-prop.lisp,Inlining,0.007773164822719991
+b1-const-prop.lisp,No optimizations,0.008851011050865054
+b2-inline.lisp,Constant propagation and inlining,0.007901222724467517
+b2-inline.lisp,Inlining,0.008056345395743847
+b2-inline.lisp,No optimizations,0.007767096976749599
+b3-unique-names.lisp,Constant propagation and inlining,0.007346512307412923
+b3-unique-names.lisp,Inlining,0.007125073904171586
+b3-unique-names.lisp,No optimizations,0.00863592061214149
+b3.lisp,Constant propagation and inlining,0.007630635658279062
+b3.lisp,Inlining,0.007176815299317241
+b3.lisp,No optimizations,0.008517577266320586
+b4.lisp,Constant propagation and inlining,0.0075878288829699155
+b4.lisp,Inlining,0.0065444277599453924
+b4.lisp,No optimizations,0.00866718494798988
+banana.lisp,Constant propagation and inlining,0.006408343394286931
+banana.lisp,Inlining,0.008370797499082983
+banana.lisp,No optimizations,0.008918113075196743
+basic.lisp,Constant propagation and inlining,0.0076647339388728145
+basic.lisp,Inlining,0.006719939433969558
+basic.lisp,No optimizations,0.008612970123067498
+basicread.lisp,Constant propagation and inlining,0.007891244883649052
+basicread.lisp,Inlining,0.005848230537958443
+basicread.lisp,No optimizations,0.0074677087366580965
+ben1.lisp,Constant propagation and inlining,0.006443786015734076
+ben1.lisp,Inlining,0.005027197254821658
+ben1.lisp,No optimizations,0.008797306381165982
+ben2.lisp,Constant propagation and inlining,0.007421922963112592
+ben2.lisp,Inlining,0.006538625294342637
+ben2.lisp,No optimizations,0.007441046135500074
+ben3.lisp,Constant propagation and inlining,0.007280255970545113
+ben3.lisp,Inlining,0.005902866437099874
+ben3.lisp,No optimizations,0.007514740014448762
+bench1.lisp,Constant propagation and inlining,0.007017111708410084
+bench1.lisp,Inlining,0.005915133282542229
+bench1.lisp,No optimizations,0.007613468030467629
+bench2.lisp,Constant propagation and inlining,0.0065489971777424215
+bench2.lisp,Inlining,0.006558214384131134
+bench2.lisp,No optimizations,0.008647458255290985
+bench3.lisp,Constant propagation and inlining,0.00693567784037441
+bench3.lisp,Inlining,0.007408064394257963
+bench3.lisp,No optimizations,0.007381708966568113
+bench4.lisp,Constant propagation and inlining,0.0063070541247725485
+bench4.lisp,Inlining,0.0070213157217949625
+bench4.lisp,No optimizations,0.0072487231343984606
+bench5.lisp,Constant propagation and inlining,0.007199832145124674
+bench5.lisp,Inlining,0.00687496077734977
+bench5.lisp,No optimizations,0.007057336810976267
+benchmark.lisp,Constant propagation and inlining,0.005608840682543814
+benchmark.lisp,Inlining,0.006858801236376166
+benchmark.lisp,No optimizations,0.007102412288077176
+benchmark1.lisp,Constant propagation and inlining,0.005954541242681443
+benchmark1.lisp,Inlining,0.0073910093866288665
+benchmark1.lisp,No optimizations,0.007922519207932055
+benchmark2.lisp,Constant propagation and inlining,0.006573840440250933
+benchmark2.lisp,Inlining,0.006974769779480994
+benchmark2.lisp,No optimizations,0.007934424816630781
+benchmark3.lisp,Constant propagation and inlining,0.006996487895958125
+benchmark3.lisp,Inlining,0.006673359754495322
+benchmark3.lisp,No optimizations,0.008528009871952236
+benchmark4.lisp,Constant propagation and inlining,0.00659371460787952
+benchmark4.lisp,Inlining,0.007368781534023583
+benchmark4.lisp,No optimizations,0.007460348214954138
+benchmark5.lisp,Constant propagation and inlining,0.007166579319164157
+benchmark5.lisp,Inlining,0.00803749724291265
+benchmark5.lisp,No optimizations,0.007557836268097163
+benchmark_1.lisp,Constant propagation and inlining,0.008292140578851104
+benchmark_1.lisp,Inlining,0.006339737097732723
+benchmark_1.lisp,No optimizations,0.007252629660069942
+benchmark_2.lisp,Constant propagation and inlining,0.007760653714649379
+benchmark_2.lisp,Inlining,0.007063588546589017
+benchmark_2.lisp,No optimizations,0.008040460501797497
+benchmark_3.lisp,Constant propagation and inlining,0.00754879848100245
+benchmark_3.lisp,Inlining,0.007170185004360974
+benchmark_3.lisp,No optimizations,0.008368507376872003
+bit-ops.lisp,Constant propagation and inlining,0.006247106892988086
+bit-ops.lisp,Inlining,0.0066477075219154354
+bit-ops.lisp,No optimizations,0.00881522528361529
+bit-shifts.lisp,Constant propagation and inlining,0.00724389220122248
+bit-shifts.lisp,Inlining,0.0060584811260923745
+bit-shifts.lisp,No optimizations,0.008024714817292989
+c.lisp,Constant propagation and inlining,0.007669261726550758
+c.lisp,Inlining,0.007999512134119868
+c.lisp,No optimizations,0.008398292423225939
+collatz.lisp,Constant propagation and inlining,0.19938149191439153
+collatz.lisp,Inlining,0.18035991748329253
+collatz.lisp,No optimizations,0.18491446492262184
+common-expr-eliminating.lisp,Constant propagation and inlining,0.006695903977379203
+common-expr-eliminating.lisp,Inlining,0.00672804641071707
+common-expr-eliminating.lisp,No optimizations,0.0073991492856293915
+common-sub.lisp,Constant propagation and inlining,0.007138232630677521
+common-sub.lisp,Inlining,0.007508009998127818
+common-sub.lisp,No optimizations,0.007231273711659015
+common_subex.lisp,Constant propagation and inlining,0.0094082688447088
+common_subex.lisp,Inlining,0.011837558122351766
+common_subex.lisp,No optimizations,0.01207781578414142
+const-folding.lisp,Constant propagation and inlining,0.008755661058239638
+const-folding.lisp,Inlining,0.006500243884511292
+const-folding.lisp,No optimizations,0.007904802705161274
+const_prop.lisp,Constant propagation and inlining,0.009238366386853158
+const_prop.lisp,Inlining,0.010924559039995074
+const_prop.lisp,No optimizations,0.014514596690423787
+constant-prop-let.lisp,Constant propagation and inlining,0.007218084996566176
+constant-prop-let.lisp,Inlining,0.007498469576239586
+constant-prop-let.lisp,No optimizations,0.005921573122031986
+constant-prop-recursive.lisp,Constant propagation and inlining,0.00923164770938456
+constant-prop-recursive.lisp,Inlining,0.006183297000825405
+constant-prop-recursive.lisp,No optimizations,0.00611533762421459
+constant-prop.lisp,Constant propagation and inlining,0.008093903888948262
+constant-prop.lisp,Inlining,0.007411648007109761
+constant-prop.lisp,No optimizations,0.005579940578900278
+constant.lisp,Constant propagation and inlining,0.041380353691056374
+constant.lisp,Inlining,0.0892709142062813
+constant.lisp,No optimizations,0.07002619414124638
+constant_folding1.lisp,Constant propagation and inlining,0.008904611156322063
+constant_folding1.lisp,Inlining,0.006620527035556734
+constant_folding1.lisp,No optimizations,0.006857555569149553
+constant_prop.lisp,Constant propagation and inlining,0.006788768270052969
+constant_prop.lisp,Inlining,0.00759438790846616
+constant_prop.lisp,No optimizations,0.006956114387139678
+constant_prop_all.lisp,Constant propagation and inlining,0.00845315046608448
+constant_prop_all.lisp,Inlining,0.006521750404499471
+constant_prop_all.lisp,No optimizations,0.00877618701197207
+constantpair.lisp,Constant propagation and inlining,0.007609799806959927
+constantpair.lisp,Inlining,0.008237698767334222
+constantpair.lisp,No optimizations,0.008294266159646213
+constants.lisp,Constant propagation and inlining,0.008113986090756952
+constants.lisp,Inlining,0.008515353337861598
+constants.lisp,No optimizations,0.00961858017835766
+constinline.lisp,Constant propagation and inlining,0.0070933882845565675
+constinline.lisp,Inlining,0.0041617696639150385
+constinline.lisp,No optimizations,0.008871484897099435
+cp.lisp,Constant propagation and inlining,0.007966256304644048
+cp.lisp,Inlining,0.004302193410694599
+cp.lisp,No optimizations,0.008951065503060818
+cp0.lisp,Constant propagation and inlining,0.0068827344104647635
+cp0.lisp,Inlining,0.00432117567397654
+cp0.lisp,No optimizations,0.009162434260360897
+cp_cse.lisp,Constant propagation and inlining,0.007030184054747224
+cp_cse.lisp,Inlining,0.006179302069358528
+cp_cse.lisp,No optimizations,0.007643573894165456
+cse-opp.lisp,Constant propagation and inlining,0.007558568846434355
+cse-opp.lisp,Inlining,0.007930208300240337
+cse-opp.lisp,No optimizations,0.007402411685325206
+cse.lisp,Constant propagation and inlining,0.006454120995476842
+cse.lisp,Inlining,0.0070480220718309285
+cse.lisp,No optimizations,0.007433297112584114
+cse1.lisp,Constant propagation and inlining,0.007839758228510619
+cse1.lisp,Inlining,0.005982920341193676
+cse1.lisp,No optimizations,0.007804855518043041
+cse_if.lisp,Constant propagation and inlining,0.005247216392308474
+cse_if.lisp,Inlining,0.007031215261667967
+cse_if.lisp,No optimizations,0.006152569642290473
+cse_my.lisp,Constant propagation and inlining,0.005521560204215348
+cse_my.lisp,Inlining,0.007169731939211488
+cse_my.lisp,No optimizations,0.007193127018399537
+cse_read.lisp,Constant propagation and inlining,0.006167043652385473
+cse_read.lisp,Inlining,0.006996628595516086
+cse_read.lisp,No optimizations,0.006108927307650447
+definelet.lisp,Constant propagation and inlining,0.00768157159909606
+definelet.lisp,Inlining,0.006235229177400469
+definelet.lisp,No optimizations,0.009414572734385729
+denver-slow-ops.lisp,Constant propagation and inlining,0.07601876442786307
+denver-slow-ops.lisp,Inlining,0.07162066157907247
+denver-slow-ops.lisp,No optimizations,0.07140874951146543
+distance_const.lisp,Constant propagation and inlining,0.008081467123702168
+distance_const.lisp,Inlining,0.008051522239111365
+distance_const.lisp,No optimizations,0.008560985210351646
+doubleinput.lisp,Constant propagation and inlining,0.007423487119376659
+doubleinput.lisp,Inlining,0.00704317563213408
+doubleinput.lisp,No optimizations,0.008066837978549301
+equals.lisp,Constant propagation and inlining,0.007537882681936026
+equals.lisp,Inlining,0.007171568344347179
+equals.lisp,No optimizations,0.006469713081605733
+even.lisp,Constant propagation and inlining,0.007829927606508136
+even.lisp,Inlining,0.005969577888026834
+even.lisp,No optimizations,0.00587557484395802
+ex1.lisp,Constant propagation and inlining,0.008740666811354459
+ex1.lisp,Inlining,0.00664084181189537
+ex1.lisp,No optimizations,0.0077063139295205476
+ex2.lisp,Constant propagation and inlining,0.007674372661858797
+ex2.lisp,Inlining,0.005811777571216226
+ex2.lisp,No optimizations,0.00787660435307771
+ex3.lisp,Constant propagation and inlining,0.008387841144576668
+ex3.lisp,Inlining,0.007039723894558847
+ex3.lisp,No optimizations,0.006148890359327197
+exam-po_1.lisp,Constant propagation and inlining,0.007665818789973855
+exam-po_1.lisp,Inlining,0.005781637202017009
+exam-po_1.lisp,No optimizations,0.006393370125442744
+exam-po_3.lisp,Constant propagation and inlining,0.008236779877915979
+exam-po_3.lisp,Inlining,0.00620616264641285
+exam-po_3.lisp,No optimizations,0.00878547728061676
+exam-po_4.lisp,Constant propagation and inlining,0.0073474386241287
+exam-po_4.lisp,Inlining,0.006692927586846054
+exam-po_4.lisp,No optimizations,0.0075976770836859945
+example1.lisp,Constant propagation and inlining,0.006650760304182768
+example1.lisp,Inlining,0.005780553328804672
+example1.lisp,No optimizations,0.008169893734157085
+example2.lisp,Constant propagation and inlining,0.008152210689149796
+example2.lisp,Inlining,0.007147162104956806
+example2.lisp,No optimizations,0.00654284495394677
+example3.lisp,Constant propagation and inlining,0.007768645905889571
+example3.lisp,Inlining,0.006606119754724205
+example3.lisp,No optimizations,0.008626221586018801
+factorial.lisp,Constant propagation and inlining,0.011258199764415621
+factorial.lisp,Inlining,0.011170810833573342
+factorial.lisp,No optimizations,0.010971987899392844
+factorial_1.lisp,Constant propagation and inlining,0.008020833041518927
+factorial_1.lisp,Inlining,0.007599405804648995
+factorial_1.lisp,No optimizations,0.006812916113995015
+fib.lisp,Constant propagation and inlining,0.007288307975977659
+fib.lisp,Inlining,0.00718912857118994
+fib.lisp,No optimizations,0.00808923931326717
+fib_constant.lisp,Constant propagation and inlining,0.6798865872202441
+fib_constant.lisp,Inlining,0.6903075834037736
+fib_constant.lisp,No optimizations,0.6688143132952973
+fish.lisp,Constant propagation and inlining,0.007588494406081736
+fish.lisp,Inlining,0.007904384075663984
+fish.lisp,No optimizations,0.007671739393845201
+function-inlining.lisp,Constant propagation and inlining,0.006229509506374598
+function-inlining.lisp,Inlining,0.006637935107573867
+function-inlining.lisp,No optimizations,0.007761943410150707
+golden-lfsr.lisp,Constant propagation and inlining,0.017097085597924888
+golden-lfsr.lisp,Inlining,0.017772519518621265
+golden-lfsr.lisp,No optimizations,0.016163960634730756
+gt.lisp,Constant propagation and inlining,0.00872389730066061
+gt.lisp,Inlining,0.0074336472898721695
+gt.lisp,No optimizations,0.007735911430791021
+handshakes.lisp,Constant propagation and inlining,0.007664152816869318
+handshakes.lisp,Inlining,0.007130894041620195
+handshakes.lisp,No optimizations,0.007103420584462583
+idk.lisp,Constant propagation and inlining,0.008494438091292977
+idk.lisp,Inlining,0.008498618914745747
+idk.lisp,No optimizations,0.007053437340073287
+inline.lisp,Constant propagation and inlining,0.008066137065179646
+inline.lisp,Inlining,0.008456092793494463
+inline.lisp,No optimizations,0.007349299802444875
+inline2.lisp,Constant propagation and inlining,0.008656525425612927
+inline2.lisp,Inlining,0.007912654709070922
+inline2.lisp,No optimizations,0.008908106572926044
+inline_cse.lisp,Constant propagation and inlining,0.006908936332911253
+inline_cse.lisp,Inlining,0.00738492354284972
+inline_cse.lisp,No optimizations,0.008563611842691898
+inline_helps.lisp,Constant propagation and inlining,0.007807782292366028
+inline_helps.lisp,Inlining,0.008687439723871648
+inline_helps.lisp,No optimizations,0.00889798377174884
+inline_madness.lisp,Constant propagation and inlining,0.008906246186234057
+inline_madness.lisp,Inlining,0.007201148569583893
+inline_madness.lisp,No optimizations,0.007270005811005831
+inlining-multiple.lisp,Constant propagation and inlining,0.008442586404271424
+inlining-multiple.lisp,Inlining,0.0077695615589618685
+inlining-multiple.lisp,No optimizations,0.007234185864217579
+inlining.lisp,Constant propagation and inlining,0.008457216154783963
+inlining.lisp,Inlining,0.0074777525383979086
+inlining.lisp,No optimizations,0.008669084776192904
+inlining1.lisp,Constant propagation and inlining,0.008371231122873723
+inlining1.lisp,Inlining,0.005334433889947832
+inlining1.lisp,No optimizations,0.008403205568902195
+interesting1.lisp,Constant propagation and inlining,0.007293040701188147
+interesting1.lisp,Inlining,0.005134403915144503
+interesting1.lisp,No optimizations,0.007661490514874458
+is_let_efficient.lisp,Constant propagation and inlining,0.13172299747820942
+is_let_efficient.lisp,Inlining,0.14913508188910782
+is_let_efficient.lisp,No optimizations,0.14122728784568608
+loop.lisp,Constant propagation and inlining,0.057701349793933335
+loop.lisp,Inlining,0.05787622211501002
+loop.lisp,No optimizations,0.051921115699224175
+lotsofcall.lisp,Constant propagation and inlining,0.007578505901619792
+lotsofcall.lisp,Inlining,0.006462756800465286
+lotsofcall.lisp,No optimizations,0.007506658090278506
+lotsofcommon.lisp,Constant propagation and inlining,0.007622372009791434
+lotsofcommon.lisp,Inlining,0.008006283617578446
+lotsofcommon.lisp,No optimizations,0.009094734955579043
+lotsofconstant.lisp,Constant propagation and inlining,0.006862313905730844
+lotsofconstant.lisp,Inlining,0.006226344918832183
+lotsofconstant.lisp,No optimizations,0.007321394491009414
+manydefns.lisp,Constant propagation and inlining,0.007935013668611646
+manydefns.lisp,Inlining,0.006356612523086369
+manydefns.lisp,No optimizations,0.00888198628090322
+mario.lisp,Constant propagation and inlining,0.007658544857986271
+mario.lisp,Inlining,0.007872091582976281
+mario.lisp,No optimizations,0.007333556492812932
+matmul.lisp,Constant propagation and inlining,0.008667753241024912
+matmul.lisp,Inlining,0.007495870999991894
+matmul.lisp,No optimizations,0.00959341989364475
+max.lisp,Constant propagation and inlining,0.008028601040132343
+max.lisp,Inlining,0.008324995101429523
+max.lisp,No optimizations,0.007466379879042506
+mergeSortedLists.lisp,Constant propagation and inlining,0.008343446906656027
+mergeSortedLists.lisp,Inlining,0.007624399941414594
+mergeSortedLists.lisp,No optimizations,0.008880103379487992
+modulus.lisp,Constant propagation and inlining,0.0069190906826406716
+modulus.lisp,Inlining,0.007552888290956616
+modulus.lisp,No optimizations,0.007451693620532751
+mul.lisp,Constant propagation and inlining,0.013063117908313871
+mul.lisp,Inlining,0.01873307693749666
+mul.lisp,No optimizations,0.018590671010315418
+mullist.lisp,Constant propagation and inlining,0.0056476096855476495
+mullist.lisp,Inlining,0.00689324892591685
+mullist.lisp,No optimizations,0.007472975132986903
+multiply.lisp,Constant propagation and inlining,0.006825270829722285
+multiply.lisp,Inlining,0.006517629814334213
+multiply.lisp,No optimizations,0.009096774668432773
+name_confusion.lisp,Constant propagation and inlining,0.0054070969810709356
+name_confusion.lisp,Inlining,0.00763849972281605
+name_confusion.lisp,No optimizations,0.008216430828906596
+name_reuse.lisp,Constant propagation and inlining,0.00696586521808058
+name_reuse.lisp,Inlining,0.006310399691574276
+name_reuse.lisp,No optimizations,0.0071359723806381226
+nested-inline.lisp,Constant propagation and inlining,0.006401855801232159
+nested-inline.lisp,Inlining,0.008028882602229715
+nested-inline.lisp,No optimizations,0.008220878476276994
+nested_cse.lisp,Constant propagation and inlining,0.005835818103514611
+nested_cse.lisp,Inlining,0.006814998877234757
+nested_cse.lisp,No optimizations,0.007940477132797242
+nestedlet.lisp,Constant propagation and inlining,0.007398116425611079
+nestedlet.lisp,Inlining,0.007634188211522996
+nestedlet.lisp,No optimizations,0.00884889701846987
+nestedlets.lisp,Constant propagation and inlining,0.006037919200025499
+nestedlets.lisp,Inlining,0.0073780108243227
+nestedlets.lisp,No optimizations,0.007183286221697926
+nice.lisp,Constant propagation and inlining,0.00622129999101162
+nice.lisp,Inlining,0.008742990414611995
+nice.lisp,No optimizations,0.009060735488310457
+pairs.lisp,Constant propagation and inlining,0.008177530625835061
+pairs.lisp,Inlining,0.007054864382371307
+pairs.lisp,No optimizations,0.007425459660589695
+pow2.lisp,Constant propagation and inlining,0.22516899940092117
+pow2.lisp,Inlining,0.21405226355418563
+pow2.lisp,No optimizations,0.20693230368196963
+pown.lisp,Constant propagation and inlining,0.00815763184800744
+pown.lisp,Inlining,0.007514511793851852
+pown.lisp,No optimizations,0.007013070676475763
+prng.lisp,Constant propagation and inlining,0.006934970710426569
+prng.lisp,Inlining,0.007440808089450001
+prng.lisp,No optimizations,0.007294549141079187
+prog1.lisp,Constant propagation and inlining,0.0074098326032981275
+prog1.lisp,Inlining,0.006817090744152665
+prog1.lisp,No optimizations,0.006531899096444249
+prog2.lisp,Constant propagation and inlining,0.006558483000844717
+prog2.lisp,Inlining,0.006551341176964343
+prog2.lisp,No optimizations,0.007051411364227533
+prog3.lisp,Constant propagation and inlining,0.007990346732549369
+prog3.lisp,Inlining,0.0074822544818744065
+prog3.lisp,No optimizations,0.004705687123350799
+program1.lisp,Constant propagation and inlining,0.006356774643063545
+program1.lisp,Inlining,0.007081257714889944
+program1.lisp,No optimizations,0.005317047028802336
+program2.lisp,Constant propagation and inlining,0.006121306796558201
+program2.lisp,Inlining,0.006044535641558468
+program2.lisp,No optimizations,0.003893320239149034
+program3.lisp,Constant propagation and inlining,0.007875310396775604
+program3.lisp,Inlining,0.007236369396559894
+program3.lisp,No optimizations,0.004020803887397051
+propagate-e.lisp,Constant propagation and inlining,0.006213502422906458
+propagate-e.lisp,Inlining,0.005845178291201592
+propagate-e.lisp,No optimizations,0.005041499878279865
+propagate.lisp,Constant propagation and inlining,0.005963536538183689
+propagate.lisp,Inlining,0.008111046347767114
+propagate.lisp,No optimizations,0.005710745230317116
+prophet.lisp,Constant propagation and inlining,0.00739496904425323
+prophet.lisp,Inlining,0.006122170481830835
+prophet.lisp,No optimizations,0.003727709851227701
+propline.lisp,Constant propagation and inlining,0.007625638297758997
+propline.lisp,Inlining,0.007223775191232562
+propline.lisp,No optimizations,0.0035514058312401176
+readnum.lisp,Constant propagation and inlining,0.007029333594255149
+readnum.lisp,Inlining,0.006638928782194853
+readnum.lisp,No optimizations,0.004944113828241825
+readnum_fn.lisp,Constant propagation and inlining,0.007393995113670826
+readnum_fn.lisp,Inlining,0.006852398021146655
+readnum_fn.lisp,No optimizations,0.005781548609957099
+redundant_fib.lisp,Constant propagation and inlining,0.3760922368383035
+redundant_fib.lisp,Inlining,0.9294798655668274
+redundant_fib.lisp,No optimizations,0.9207014477346093
+rename.lisp,Constant propagation and inlining,0.006764002074487507
+rename.lisp,Inlining,0.007660783804021775
+rename.lisp,No optimizations,0.007509520067833364
+repeat.lisp,Constant propagation and inlining,0.007785682985559106
+repeat.lisp,Inlining,0.007100027869455516
+repeat.lisp,No optimizations,0.00662517047021538
+repeated_fib.lisp,Constant propagation and inlining,0.4701549890218303
+repeated_fib.lisp,Inlining,0.583851358294487
+repeated_fib.lisp,No optimizations,0.6937307870015502
+repeet.lisp,Constant propagation and inlining,0.008269142475910485
+repeet.lisp,Inlining,0.006763210752978921
+repeet.lisp,No optimizations,0.005938987759873271
+repetitive_fns.lisp,Constant propagation and inlining,0.006440279423259199
+repetitive_fns.lisp,Inlining,0.007670807023532689
+repetitive_fns.lisp,No optimizations,0.004395209555514157
+reverselist.lisp,Constant propagation and inlining,0.17009129410143942
+reverselist.lisp,Inlining,0.1734419961925596
+reverselist.lisp,No optimizations,0.1816157710039988
+slowmult.lisp,Constant propagation and inlining,0.033727335697039965
+slowmult.lisp,Inlining,0.03548544850200415
+slowmult.lisp,No optimizations,0.024054927611723544
+sort.lisp,Constant propagation and inlining,0.008297336869873106
+sort.lisp,Inlining,0.008144090767018497
+sort.lisp,No optimizations,0.0046819383976981046
+sort_inline.lisp,Constant propagation and inlining,0.008597568096593022
+sort_inline.lisp,Inlining,0.0085564001230523
+sort_inline.lisp,No optimizations,0.0057825487805530425
+square.lisp,Constant propagation and inlining,0.007172383856959641
+square.lisp,Inlining,0.007415782636962831
+square.lisp,No optimizations,0.006876067258417606
+starter.lisp,Constant propagation and inlining,0.007951479172334075
+starter.lisp,Inlining,0.006869308254681528
+starter.lisp,No optimizations,0.004916665959171951
+static_if.lisp,Constant propagation and inlining,0.00790012867655605
+static_if.lisp,Inlining,0.006744609959423542
+static_if.lisp,No optimizations,0.007186017814092338
+student0.lisp,Constant propagation and inlining,0.006799336965195834
+student0.lisp,Inlining,0.006798186060041189
+student0.lisp,No optimizations,0.007297494355589152
+student1.lisp,Constant propagation and inlining,0.008727013412863017
+student1.lisp,Inlining,0.007609177567064762
+student1.lisp,No optimizations,0.007214108388870955
+student2.lisp,Constant propagation and inlining,0.00785369104705751
+student2.lisp,Inlining,0.008221884514205158
+student2.lisp,No optimizations,0.0074845135910436515
+student3.lisp,Constant propagation and inlining,0.006323716044425965
+student3.lisp,Inlining,0.00830040560103953
+student3.lisp,No optimizations,0.007234461465850472
+student4.lisp,Constant propagation and inlining,0.007250266312621534
+student4.lisp,Inlining,0.008113471465185285
+student4.lisp,No optimizations,0.006355726486071944
+sub_cse.lisp,Constant propagation and inlining,0.005081763444468379
+sub_cse.lisp,Inlining,0.0075336313806474205
+sub_cse.lisp,No optimizations,0.005972516234032809
+sum.lisp,Constant propagation and inlining,0.004538346314802766
+sum.lisp,Inlining,0.0073201855644583706
+sum.lisp,No optimizations,0.007171675004065037
+supermul.lisp,Constant propagation and inlining,0.004836703976616263
+supermul.lisp,Inlining,0.008852795185521244
+supermul.lisp,No optimizations,0.007517982553690672
+test1.lisp,Constant propagation and inlining,0.005630073044449091
+test1.lisp,Inlining,0.008707513543777167
+test1.lisp,No optimizations,0.0066068392712622884
+test2.lisp,Constant propagation and inlining,0.00607068061362952
+test2.lisp,Inlining,0.007051684916950763
+test2.lisp,No optimizations,0.006877136696130037
+test3.lisp,Constant propagation and inlining,0.006648200727067888
+test3.lisp,Inlining,0.008288390096276998
+test3.lisp,No optimizations,0.008113739150576293
+test4.lisp,Constant propagation and inlining,0.005267888214439154
+test4.lisp,Inlining,0.006902725296095013
+test4.lisp,No optimizations,0.007259072968736291
+to_inline_or_not_to_inline.lisp,Constant propagation and inlining,0.005753759597428143
+to_inline_or_not_to_inline.lisp,Inlining,0.00676838259678334
+to_inline_or_not_to_inline.lisp,No optimizations,0.006590299517847597
+towers.lisp,Constant propagation and inlining,0.005569745996035635
+towers.lisp,Inlining,0.005613069096580148
+towers.lisp,No optimizations,0.005866084014996886
+triangle.lisp,Constant propagation and inlining,0.005827225092798471
+triangle.lisp,Inlining,0.006488258577883243
+triangle.lisp,No optimizations,0.007293249457143247
+tripleinput.lisp,Constant propagation and inlining,0.005769496993161738
+tripleinput.lisp,Inlining,0.006258143321610987
+tripleinput.lisp,No optimizations,0.007100411504507065
+triplelist.lisp,Constant propagation and inlining,0.006858456344343722
+triplelist.lisp,Inlining,0.004855243372730911
+triplelist.lisp,No optimizations,0.00781251087319106
+twoSum.lisp,Constant propagation and inlining,0.005932590598240495
+twoSum.lisp,Inlining,0.00461319051682949
+twoSum.lisp,No optimizations,0.006875038077123463
+twopower.lisp,Constant propagation and inlining,0.22392034959048032
+twopower.lisp,Inlining,0.21897365616168826
+twopower.lisp,No optimizations,0.22475036459509284
+unique_names.lisp,Constant propagation and inlining,0.007044000481255352
+unique_names.lisp,Inlining,0.006562028382904828
+unique_names.lisp,No optimizations,0.005577438557520509
+useless.lisp,Constant propagation and inlining,0.19502935030031948
+useless.lisp,Inlining,0.21703734290786086
+useless.lisp,No optimizations,0.2120954387122765
+vvadd.lisp,Constant propagation and inlining,0.0066988042555749415
+vvadd.lisp,Inlining,0.008973462972790003
+vvadd.lisp,No optimizations,0.007416657637804747
+what_if.lisp,Constant propagation and inlining,0.0067180824698880315
+what_if.lisp,Inlining,0.007288034074008465
+what_if.lisp,No optimizations,0.007010933710262179
+z1.lisp,Constant propagation and inlining,0.004751176387071609
+z1.lisp,Inlining,0.006939765438437462
+z1.lisp,No optimizations,0.007294262247160077
+z2.lisp,Constant propagation and inlining,0.004680572194047272
+z2.lisp,Inlining,0.008213352598249912
+z2.lisp,No optimizations,0.007116416236385703
+z3.lisp,Constant propagation and inlining,0.004527934594079852
+z3.lisp,Inlining,0.007115058111958205
+z3.lisp,No optimizations,0.00681679961271584
+zPositive.lisp,Constant propagation and inlining,0.005255915899761021
+zPositive.lisp,Inlining,0.0074043252505362036
+zPositive.lisp,No optimizations,0.006914152111858129
+zRecursive.lisp,Constant propagation and inlining,0.004851056588813662
+zRecursive.lisp,Inlining,0.008427471108734607
+zRecursive.lisp,No optimizations,0.006073287990875542
+zlooptest.lisp,Constant propagation and inlining,0.00776142543181777
+zlooptest.lisp,Inlining,0.00975330190267414
+zlooptest.lisp,No optimizations,0.00978203450795263
